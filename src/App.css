@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  background-color: black;
+  min-height: 100vh;
+  color: black;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.movie-poster {
+  height: 640px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.movie-name {
+  font-size: 24px;
+  margin: 0;
+}
+
+.movie-specs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movie-container {
+  width: 340px;
+  color: black;
+}
+
+.movie-rating{
+  font-size: 20px;
+}
+
+
+
+.btn-update{
+background-color: rgb(57, 140, 57);
+color: whitesmoke;
+padding: 0.2rem 1rem;
+border-radius: 0.2rem;
+box-shadow:black 0.1rem 0.1rem 0.5rem ;
+}
+.btn-delete{
+  background-color: rgb(198, 76, 58);
+  color: whitesmoke;
+padding: 0.2rem 1rem;
+border-radius: 0.2rem;
+box-shadow:black 0.1rem 0.1rem 0.5rem ;
+}
+.btn-update:hover{
+  background-color: rgb(202, 218, 202);
+  color: black;
+  }
+  .btn-delete:hover{
+    background-color: rgb(222, 215, 214);
+  color: black;
+  }
+
+  .alert{
+    z-index: 5;
+  }

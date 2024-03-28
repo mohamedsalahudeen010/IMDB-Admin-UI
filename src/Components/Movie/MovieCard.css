@@ -1,0 +1,32 @@
+*{
+  color: black;
+}
+.movie-poster {
+    height: 400px;
+    width: 100%;
+    /* zoom  in */
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .movie-name {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .movie-specs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+  }
+  
+  .movie-container {
+    color: black;
+    width: 340px;
+  }
+  .movie-summary{
+    color: black;
+    font-size: 0.8rem;
+    font-weight: bolder;
+  }

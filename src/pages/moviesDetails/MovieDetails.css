@@ -1,0 +1,40 @@
+.movie-detail-page{
+  margin-top:6rem;
+  position: relative;
+}
+
+.movie-detail-container{
+    max-width: 50%;
+    padding: 16px;
+  }
+  .movie-detail-page-main{
+    display: flex;
+  }
+  .movie-detail-page-poster{
+
+  }
+  .movie-detail-page-main>:nth-child(1){
+    flex: 3;
+  }
+  .movie-detail-page-main>:nth-child(2){
+    flex: 5;
+  }
+  .movie-detail{
+    display: flex;
+  }
+  .movie-name{
+    font-size: 2rem;
+    color: rgb(206, 203, 18);
+    font-weight: bolder;
+  }
+  .your-rating{
+    font-size:1.5rem;
+    color: rgb(40, 77, 145);
+  }
+  .rating-paper{
+    position: absolute;
+    top:5;
+    left: 5;
+    width: 50%;
+    height: 40%;
+  }

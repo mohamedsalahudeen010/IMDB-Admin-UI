@@ -1,0 +1,226 @@
+.footer{
+    height:auto;
+}
+.footer>img{
+    width: 100%;
+   
+}
+
+.footer{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.footer-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    top: 45%;
+    
+}
+
+.footer-content>span:nth-of-type(1){
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0, 0.815);
+    font-weight:bold ;
+    z-index: 1;
+
+}
+.footer-content>span:nth-of-type(2){
+    font-size: 1.8rem;
+    color:rgba(0, 0, 0, 0.815);
+    font-weight:bold ;
+    margin-top: 0.5rem;
+
+}
+.footer-content>span:nth-of-type(3){
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.815);
+    font-weight:bold ;
+    margin-top: 0.5rem;
+
+}
+
+.footer-icons{
+    margin-top: 1rem;
+    
+}
+.footer-icons>a{
+    padding-left: 1rem;
+}
+
+
+@media only screen and (max-width:1200px){
+    
+    .footer-content{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        top: 40%;
+        
+    }   
+.footer-content>span:nth-of-type(1){
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.815);
+    font-weight:bold ;
+    z-index: 1;
+
+}
+.footer-content>span:nth-of-type(2){
+    font-size: 1.3rem;
+    color:rgba(0, 0, 0, 0.815);
+    font-weight:bold ;
+    margin-top: 0.4rem;
+
+}
+.footer-content>span:nth-of-type(3){
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.815);
+    font-weight:bold ;
+    margin-top: 0.4rem;
+
+}
+
+.footer-icons{
+    margin-top: 0.8rem;
+    
+}
+.footer-icons>a{
+    padding-left: 1rem;
+}
+}
+
+
+@media only screen and (max-width:950px){
+    
+    .footer-content{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        top: 38%;
+        
+    }   
+.footer-content>span:nth-of-type(1){
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.815);
+    font-weight:bold ;
+    z-index: 1;
+
+}
+.footer-content>span:nth-of-type(2){
+    font-size: 1rem;
+    color:rgba(0, 0, 0, 0.815);
+    font-weight:bold ;
+    margin-top: 0.3rem;
+
+}
+.footer-content>span:nth-of-type(3){
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.815);
+    font-weight:bold ;
+    margin-top: 0.3rem;
+
+}
+
+.footer-icons{
+    margin-top: 0.5rem;
+    
+}
+.footer-icons>a{
+    padding-left: 1rem;
+}
+}
+
+
+@media only screen and (max-width:750px){
+    
+    .footer-content{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        top: 35%;
+        
+    }   
+.footer-content>span:nth-of-type(1){
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.815);
+    font-weight:bold ;
+    z-index: 1;
+
+}
+.footer-content>span:nth-of-type(2){
+    font-size: 0.8rem;
+    color:rgba(0, 0, 0, 0.815);
+    font-weight:bold ;
+    margin-top: 0.2rem;
+
+}
+.footer-content>span:nth-of-type(3){
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.815);
+    font-weight:bold ;
+    margin-top: 0.25rem;
+
+}
+
+.footer-icons{
+    margin-top: 0.25rem;
+    
+}
+.footer-icons>a{
+    padding-left: 1rem;
+}
+}
+
+@media only screen and (max-width:600px){
+    
+    .footer-content{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        top: 33%;
+        
+    }   
+.footer-content>span:nth-of-type(1){
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.815);
+    font-weight:bold ;
+    z-index: 1;
+
+}
+.footer-content>span:nth-of-type(2){
+    font-size: 0.7rem;
+    color:rgba(0, 0, 0, 0.815);
+    font-weight:bold ;
+    margin-top: -0.2rem;
+
+}
+.footer-content>span:nth-of-type(3){
+    font-size: 0.7rem;
+    color: rgba(0, 0, 0, 0.815);
+    font-weight:bold ;
+    margin-top: -0.2rem;
+
+}
+
+.footer-icons{
+    margin-top: 0rem;
+    
+}
+.footer-icons>a{
+    padding-left: 1rem;
+}
+}

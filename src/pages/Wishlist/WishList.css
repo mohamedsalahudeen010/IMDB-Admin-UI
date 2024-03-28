@@ -1,0 +1,11 @@
+.wishList{
+    padding-top: 5rem;
+min-height: 100vh;
+}
+.heading>h1{
+color: rgb(206, 203, 18);
+font-size: 3rem;
+letter-spacing: 2px;
+font-weight: bolder;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

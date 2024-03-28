@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+.modal-body-left{
+  
+    padding: auto;
+    float: left;
+    padding-left: 8%;
+    color: black;
+    
+}
+.modal-body-left>img{
+    width:90%;
+    height: 35vh;
+    padding: 0.4rem;
+    border-radius: 0.8rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem gold;
+    background-color: rgb(23, 21, 79);
+    }
+
+.modal-header{
+    background-color: rgba(36, 36, 36, 0.837);
+    color: gold;
+}
+.modal-header-title{
+    font-size: 1.5rem;
+}
+
+
+.modal-body{
+    background-color: rgb(40, 40, 41);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.modal-footer{
+    background-color: rgba(36, 36, 36, 0.837);
+    color: gold;
+}
+.modal-footer-btn{
+    font-size: 1rem;
+    padding: 0.4rem 2rem;
+    background-color: rgb(169, 146, 17); 
+    color: antiquewhite;
+    border-radius: 0.5rem;
+}
+.modal-footer-btn:hover{
+    background-color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0);
+}
+.movie-name{
+    font-size: 2rem;
+}
+.modal-body-right{
+   
+   height: 35vh;
+    color:black ;
+    font-weight: bolder;
+   
+}
+
+
+
+
+.btn-div
+{
+    margin-top: -0.5rem;
+}
+@media only screen and (max-width:990px) {
+ 
+    .modal-body-left>img{
+        width:105%;
+        height: 33vh;
+        padding: 0.4rem;
+        border-radius: 0.8rem;
+        margin-left: -0.9rem;
+        }
+    
+    .modal-techs>h5{
+        font-size: 1.4rem;
+        }
+        
+        .techs{
+     
+            margin: 0.4rem;
+           
+        }
+        .techs>li{
+            font-size: 0.9rem;
+            padding: 0.1rem 0.5rem;
+            border-radius: 0.5rem;
+        }
+        .modal-description>h5{
+            font-size: 1.4rem;
+          
+        }
+        .modal-description{
+            
+            font-size: 0.7rem;
+            margin: 1rem;
+        }
+        .modal-header-title{
+            font-size: 1.3rem;
+        }
+        .modal-body-right{
+            
+            padding-left: 0.7rem;
+            height: 30vh;
+   
+        }
+        .modal-footer-btn{
+            font-size: 0.9rem;
+            padding: 0.4rem 2rem;
+        }
+}
+
+
+
+
+
+
+@media only screen and (max-width:530px) {
+    .modal-body-left>img{
+        width:110%;
+        height: 32vh;
+        padding: 0.4rem;
+        border-radius: 0.8rem;
+        margin-left: -1.5rem;
+        }
+
+
+        .modal-header-title{
+            font-size: 1rem;
+        }
+        .modal-body-right{
+            
+            padding-left: 0.7rem;
+            height: 30vh;
+   
+        }
+        .modal-footer-btn{
+            font-size: 0.8rem;
+            padding: 0.4rem 2rem;
+        }
+        
+}
+
+
+@media only screen and (max-width:400px) {
+    .modal-body-left>img{
+        width:125%;
+        height: 30vh;
+        padding: 0.4rem;
+        border-radius: 0.8rem;
+        margin-left: -1.5rem;
+        }
+    
+    .modal-techs>h5{
+       
+        font-size: 1rem;
+        }
+        
+        .techs{
+          
+            margin: 0.25rem;
+         
+        }
+        .techs>li{
+            font-size: 0.5rem;
+            padding: 0.1rem 0.3rem;
+            border-radius: 0.2rem;
+        }
+        .modal-description>h5{
+            font-size: 1.2rem;
+          
+        }
+        .modal-description{
+          
+            font-size: 0.6rem;
+            margin: 1rem 0.5rem;
+        }
+        .modal-header-title{
+            font-size: 0.81rem;
+        }
+        .modal-body-right{
+            
+            padding-left: 0.7rem;
+            height: 30vh;
+   
+        }
+
+        
+.project-netlify-modal-btn{
+    width: 40%;
+    margin-top: 0.5rem;
+    padding: 0.3rem 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem black;
+    font-size: 0.6rem;
+    margin: 2%;
+    font-weight: bold;
+}
+
+
+
+.project-github-modal-btn{
+    width: 40%;
+    margin-top: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.3rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem black;
+    font-size: 0.7rem;
+    margin: 2%;
+
+}
+
+.modal-footer-btn{
+    font-size: 0.7rem;
+    padding: 0.4rem 2rem;
+}
+        
+}
+
+
+
+@media only screen and (max-width:350px) {
+    .modal-body-left>img{
+        width:125%;
+        height: 27vh;
+        padding: 0.4rem;
+        border-radius: 0.8rem;
+        margin-left: -1rem;
+        }
+    
+    .modal-techs>h5{
+       
+        font-size: 0.8rem;
+        }
+        
+        .techs{
+          
+            margin: 0.15rem;
+         
+        }
+        .techs>li{
+            font-size: 0.5rem;
+            padding: 0.1rem 0.3rem;
+            border-radius: 0.2rem;
+        }
+        .modal-description>h5{
+            font-size: 1.1rem;
+          
+        }
+        .modal-description{
+          
+            font-size: 0.45rem;
+            margin: 1rem 0.5rem;
+        }
+        .modal-header-title{
+            font-size: 0.6rem;
+        }
+        .modal-body-right{
+            
+            padding-left: 0.9rem;
+            height: 30vh;
+   
+        }
+
+        
+.project-netlify-modal-btn{
+    width: 40%;
+    margin-top: 0.5rem;
+    padding: 0.3rem 1rem;
+    border-radius: 0.3rem;
+    font-size: 0.4rem;
+    margin: 2%;
+    font-weight: bold;
+}
+
+
+
+.project-github-modal-btn{
+    width: 40%;
+    margin-top: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.3rem;
+
+    font-size: 0.5rem;
+    margin: 2%;
+
+}
+.modal-footer-btn{
+    font-size: 0.7rem;
+    padding: 0.4rem 2rem;
+}
+        
+}
+
+
+
+@media only screen and (max-width:300px) {
+    .modal-body-left>img{
+        width:130%;
+        height: 25vh;
+        padding: 0.4rem;
+        border-radius: 0.8rem;
+        margin-left: -1rem;
+        }
+    
+    .modal-techs>h5{
+       
+        font-size: 0.6rem;
+        }
+        
+        .techs{
+          
+            margin: 0.1rem;
+         
+        }
+        .techs>li{
+            font-size: 0.4rem;
+            padding: 0.1rem 0.1rem;
+            border-radius: 0.2rem;
+        }
+        .modal-description>h5{
+            font-size: 0.8rem;
+          
+        }
+        .modal-description{
+          
+            font-size: 0.45rem;
+            margin: 0.5rem 0rem;
+        }
+        .modal-header-title{
+            font-size: 0.5rem;
+        }
+        .modal-body-right{
+            
+            padding-left: 0.9rem;
+            height: 27vh;
+   
+        }
+
+        
+.project-netlify-modal-btn{
+    width: 40%;
+    margin-top: 0.5rem;
+    padding: 0.3rem 1rem;
+    border-radius: 0.3rem;
+    font-size: 0.4rem;
+    margin: 2%;
+    font-weight: bold;
+}
+
+
+
+.project-github-modal-btn{
+    width: 40%;
+    margin-top: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.3rem;
+
+    font-size: 0.4rem;
+    margin: 2%;
+
+}
+.modal-footer-btn{
+    font-size: 0.7rem;
+    padding: 0.4rem 2rem;
+}
+        
+}
