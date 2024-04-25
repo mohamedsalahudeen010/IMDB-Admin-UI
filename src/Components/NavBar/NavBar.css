@@ -84,9 +84,7 @@ cursor: pointer;
 .dropDown{
     display: none;
 }
-li{
-    text-decoration: none;
-}
+
 .check-label{
     display: none;
 }
@@ -106,6 +104,8 @@ li{
 li{
     list-style: none;
     cursor: pointer;
+     text-decoration: none;
+    color:whitesmoke;
 }
 
 @media only screen and (max-width: 960px) {
