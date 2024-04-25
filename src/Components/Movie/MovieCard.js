@@ -42,7 +42,7 @@ export function MovieCard({ movie, id , wishList}) {
             onClick={() => navigate(`/movies/${id}`)}></img>
             <CardContent>
             <div className='movie-specs'>
-                <h2 className='movie-name'>{movie.name}
+                <h2 id='movie-name'>{movie.movieName}
                     <IconButton color="black" onClick={() => setShow(!show)} 
                     aria-label="toggle summary">
                         {show ? <ExpandLessIcon /> : <ExpandMoreIcon />}
