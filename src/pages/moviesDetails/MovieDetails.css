@@ -32,7 +32,7 @@
     background-color: whitesmoke;
     cursor: pointer;
     padding: 0 1rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     box-shadow: 0.1rem 0.1rem 0.4rem whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
